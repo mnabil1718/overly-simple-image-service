@@ -1,0 +1,38 @@
+{{define "subject"}}Welcome to blog.mnabil.dev!{{ end }}
+{{define "plainBody"}}
+Hi, Thanks for signing up for our blog account. We're excited to have you on
+board! To start writing and interacting with other users, please activate your account by copying this activation token: {{.activationToken}} And submit it through our link here: {{.activationLink}}. Please note that
+this is a one-time use token and it will expire in 3 days. Warm Regards, Nabil
+{{ end }}
+{{define "htmlBody"}}
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  </head>
+  <body>
+    <p>Hi,</p>
+    <p>
+      Thanks for signing up for our blog account. We're excited to have you
+      on board!
+    </p>
+    <p>
+      To start writing and interacting with other users, please activate your account by copying this activation token:
+    </p>
+        <pre style="font-size:16px;font-weight:bold;"><code>
+{{.activationToken}}
+</code></pre>
+    <p>
+      And submit it through our link below:
+    </p>
+<a href="{{.activationLink}}">{{.activationLink}}</a>
+    <p>
+      Please note that this is a one-time use token and it will expire in 3
+      days.
+    </p>
+    <p>Warm Regards,</p>
+    <p>Nabil</p>
+  </body>
+</html>
+{{ end }}
