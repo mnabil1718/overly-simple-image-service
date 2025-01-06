@@ -4,11 +4,11 @@ Written in go, only supports image storage and processing endpoint
 
 ## Dependencies
 
-- [https://github.com/chai2010/webp]
-- [https://github.com/disintegration/imaging]
-- [https://github.com/air-verse/air]
-- [https://github.com/spf13/viper]
-- [https://github.com/julienschmidt/httprouter]
+- https://github.com/chai2010/webp
+- https://github.com/disintegration/imaging
+- https://github.com/air-verse/air
+- https://github.com/spf13/viper
+- https://github.com/julienschmidt/httprouter
 
 ## Available Endpoints
 
