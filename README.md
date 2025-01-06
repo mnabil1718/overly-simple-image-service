@@ -38,5 +38,5 @@ Requires multi-part form data with key `file`
 | `h`         | int         |  Specify resized height of the image. If width not specified retain original aspect ratio. |
 | `crop`      | bool        |  If true height and width have to be specified. Resize and Crop image based on `w` and `h` |
 | `blur`      | float64     |  Specify gaussian blur filter on image. Applied last after crop and resize.                |
-| `quality`   | int         |  Specify quality of image upon encoding. Only works with Lossy (jpeg, webp)                |
+| `q`         | int         |  Specify quality of image upon encoding. Only works with Lossy (jpeg, webp)                |
 
